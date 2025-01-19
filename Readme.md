@@ -125,7 +125,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any inquiries, please reach out via:
 
-- **Email:** [bridges.journal@lcu.edu.ng](mailto:bridges.journal@lcu.edu.ng)
+- **Email:** [emmanueloladimeji435@gmail.com](mailto:emmanueloladimeji435@gmail.com)
 - **Website:** [Lead City University](https://www.lcu.edu.ng)
 
 ---
