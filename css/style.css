@@ -28,11 +28,7 @@ header {
   max-width: 1200px;
 }
 
-.uni-info, 
-.journal-title {
-  padding: 0; /* Remove any unwanted padding */
-  margin: 0;
-}
+
 
 .logo {
   height: 70px;
