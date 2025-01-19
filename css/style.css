@@ -1,0 +1,229 @@
+/* style.css */
+
+/* RESET / GLOBAL STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background: #f5f5f5;
+    color: #333;
+  }
+  
+  /* HEADER */
+  header {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .logo {
+    height: 70px;
+    width: auto;
+    margin-right: 15px;
+  }
+  
+  .uni-info h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+  
+  .uni-info p {
+    margin-top: 0;
+    font-size: 0.9rem;
+  }
+  
+  /* NAVIGATION */
+  nav {
+    width: 100%;
+    background-color: #fff;
+  }
+  
+  .nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px 0;
+  }
+  
+  .nav-list li {
+    margin: 0 10px;
+  }
+  
+  .nav-list li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 6px 10px;
+    transition: 0.3s;
+  }
+  
+  .nav-list li a:hover {
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  
+  /* HERO */
+  .hero {
+    background: url('https://via.placeholder.com/1200x400/4c6ef5/ffffff?text=Faculty+Journal') no-repeat center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .hero-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+  }
+  
+  .hero-content h2 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .btn-cta {
+    background-color: #4c6ef5;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: 0.3s;
+  }
+  
+  .btn-cta:hover {
+    background-color: #3558d4;
+  }
+  
+  /* SECTIONS */
+  .section {
+    padding: 40px 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .section h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .bg-light {
+    background: #fff;
+  }
+  
+  /* ABOUT / EDITORIAL BOARD / SUBMISSIONS / ARCHIVES / CONTACT */
+  .section p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .section ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    list-style: disc;
+  }
+  
+  .section ul li {
+    margin: 5px 0;
+  }
+  
+  /* CONTACT FORM */
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group span {
+    color: red;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #4c6ef5;
+  }
+  
+  /* FOOTER */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* RESPONSIVE STYLES */
+  @media (max-width: 768px) {
+    .hero {
+      height: 300px;
+    }
+  
+    .hero-content h2 {
+      font-size: 1.8rem;
+    }
+  
+    .nav-list {
+      flex-direction: column;
+    }
+  
+    .nav-list li {
+      margin: 5px 0;
+    }
+  
+    header {
+      align-items: flex-start;
+    }
+  
+    .logo-container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  
